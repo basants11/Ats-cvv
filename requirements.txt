@@ -24,17 +24,35 @@ Pillow==10.1.0
 # PDF generation
 reportlab==4.0.7
 
-# AI and ML dependencies
+# AI and ML dependencies (Enhanced for AI Fusion Core)
 openai==1.3.7
 langchain==0.1.0
+langchain-openai==0.0.2
+langchain-anthropic==0.0.2
+langchain-mistralai==0.0.2
+autogen==0.1.0
 transformers==4.36.2
 torch==2.1.2
 sentence-transformers==2.2.2
 numpy==1.26.2
+faiss-cpu==1.7.4
+
+# Vector storage dependencies
+pinecone-client==2.2.4
+weaviate-client==4.4.0
+chromadb==0.4.18
+
+# gRPC dependencies
+grpcio==1.60.0
+grpcio-tools==1.60.0
+protobuf==4.25.1
 
 # Cloud storage dependencies
 boto3==1.34.34
 firebase-admin==6.2.0
+
+# Redis for caching
+redis==5.0.1
 
 # Development dependencies
 pytest==7.4.4
@@ -49,3 +67,11 @@ python-dateutil==2.8.2
 
 # HTTP client for external APIs
 requests==2.31.0
+
+# Async support
+asyncio==3.4.3
+
+# Additional utilities for microservices
+pyyaml==6.0.1
+click==8.1.7
+rich==13.7.0
